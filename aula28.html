@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso Bootstrap3 - Devmedia</title>
+        
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta charset="utf-8">
+        
+        <!-- adicionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+        
+        <!-- css personalizado -->
+        <link href="css/estilo.css" rel="stylesheet" media="all">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="left" title="Tooltip Left">Tooltip 1 - Left</button>
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="top" title="Tooltip Top">Tooltip 2 - Top</button>
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="right" title="Tooltip Right">Tooltip 3 - Right</button>
+                    <button type="button" class="btn btn-default ttp" data-toggle="tooltip" data-placement="bottom">Tooltip 4 - Bottom</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="left" data-content="Tooltip Left" data-container="body">Tooltip 1 - Left</button>
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="top" data-content="Tooltip Top" data-container="body">Tooltip 2 - Top</button>
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="right" data-content="Tooltip Right" data-container="body" title="popover com title">Tooltip 3 - Right</button>
+                    <button type="button" class="btn btn-default ppv" data-toggle="popover" data-placement="bottom" data-content="Tooltip Right" data-container="body">Tooltip 4 - Bottom</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
