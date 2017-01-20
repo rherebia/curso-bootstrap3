@@ -25,4 +25,16 @@ $(function(){
        title : "Título do popover",
         tigger : "hover focus "
     });
+    
+    $(".btnjs").button();
+    
+    $("#troca-estado").click(function() {
+       var btn = $(this);
+        
+        btn.button("loading");
+        
+        setTimeout(function() {
+            btn.button("reset");
+        }, 3000);
+    });
 });
