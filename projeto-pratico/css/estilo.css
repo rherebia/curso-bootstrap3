@@ -4,9 +4,15 @@
 }
 
 body {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .navbar-brand {
     font-weight: 700;
+}
+
+.divslider {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: url(../imgs/bgslider.png);
 }
