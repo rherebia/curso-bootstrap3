@@ -26,3 +26,16 @@ section {
 .div_colorida {
     background: url(../imgs/bgslider.png);
 }
+
+.servicos_item {
+    text-align: center;
+}
+
+.servicos_item h4 {
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.btn-todos-servicos {
+    margin-top: 25px;
+}
