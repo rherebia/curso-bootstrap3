@@ -23,6 +23,16 @@ section {
     min-height: 100vh;
 }
 
+section#contato {
+    min-height: 60vh;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url(../imgs/bgslider.png);
+}
+
 .div_colorida {
     background: url(../imgs/bgslider.png);
 }
@@ -67,4 +77,12 @@ img.grayscale {
 img.grayscale:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
+}
+
+.contato textarea {
+    height: 170px;
+}
+
+.contato .aviso {
+    padding: 20px;
 }
