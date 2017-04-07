@@ -99,3 +99,7 @@ img.grayscale:hover {
 .form-login input {
     margin-bottom: 10px;
 }
+
+.panel {
+    margin-bottom: 2px;
+}
